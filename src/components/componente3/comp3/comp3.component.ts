@@ -15,6 +15,9 @@ export class Comp3Component implements OnInit {
   navegacion1(){
     this.nav.navigate(['web2'])
    }
+   navegacion3(){
+    this.nav.navigate(['web4'])
+  }
    atras(){
     this.nav.navigate([''])
   }

@@ -18,5 +18,8 @@ export class Comp1Component implements OnInit {
  navegacion2(){
   this.router.navigate(['web3'])
 }
+navegacion3(){
+  this.router.navigate(['web4'])
+}
 
 }

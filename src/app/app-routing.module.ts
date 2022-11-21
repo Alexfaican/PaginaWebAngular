@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { Comp1Component } from 'src/components/componente1/comp1/comp1.component';
 import { Comp2Component } from 'src/components/componente2/comp2/comp2.component';
 import { Comp3Component } from 'src/components/componente3/comp3/comp3.component';
+import { Comp4Component } from 'src/components/componente4/comp4/comp4.component';
 
 
 const routes: Routes = [
@@ -14,6 +15,9 @@ const routes: Routes = [
   },
   {
     path: 'web3', component: Comp3Component
+  },
+  {
+    path: 'web4', component: Comp4Component
   }
   
 ];
